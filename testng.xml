@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+ 
+
+<suite name = "Selenium_Redgrocer">
+
+	<test name="Testing TestNG">
+		<classes>
+			<class name ="testcase.TC002_Login"/>
+			<class name ="testcase.TC003_HomePage"/>
+			
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium_Redgrocer" duration-ms="50090" started-at="2022-08-01T18:07:54 BDT" finished-at="2022-08-01T18:08:44 BDT">
+    <groups>
+    </groups>
+    <test name="Testing TestNG" duration-ms="50090" started-at="2022-08-01T18:07:54 BDT" finished-at="2022-08-01T18:08:44 BDT">
+      <class name="testcase.TC002_Login">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.TC002_Login@5c18298f]" name="setup" is-config="true" duration-ms="4063" started-at="2022-08-01T18:07:50 BDT" finished-at="2022-08-01T18:07:54 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcase.TC002_Login@5c18298f]" name="login" duration-ms="26100" started-at="2022-08-01T18:07:54 BDT" finished-at="2022-08-01T18:08:20 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcase.TC002_Login@5c18298f]" name="teardown" is-config="true" duration-ms="779" started-at="2022-08-01T18:08:44 BDT" finished-at="2022-08-01T18:08:45 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.TC002_Login -->
+      <class name="testcase.TC003_HomePage">
+        <test-method status="PASS" signature="homepage()[pri:0, instance:testcase.TC003_HomePage@7a36aefa]" name="homepage" duration-ms="23925" started-at="2022-08-01T18:08:20 BDT" finished-at="2022-08-01T18:08:44 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+      </class> <!-- testcase.TC003_HomePage -->
+    </test> <!-- Testing TestNG -->
+  </suite> <!-- Selenium_Redgrocer -->
+</testng-results>
