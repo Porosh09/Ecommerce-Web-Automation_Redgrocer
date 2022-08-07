@@ -8,6 +8,7 @@
 		<classes>
 			<class name ="testcase.TC002_Login"/>
 			<class name ="testcase.TC003_HomePage"/>
+			<class name ="testcase.TC004_CompleteOrder"/>
 			
 		</classes>
 	</test>

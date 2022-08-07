@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Selenium_Redgrocer" duration-ms="50090" started-at="2022-08-01T18:07:54 BDT" finished-at="2022-08-01T18:08:44 BDT">
+  <suite name="Selenium_Redgrocer" duration-ms="213736" started-at="2022-08-07T10:59:52 BDT" finished-at="2022-08-07T11:03:26 BDT">
     <groups>
     </groups>
-    <test name="Testing TestNG" duration-ms="50090" started-at="2022-08-01T18:07:54 BDT" finished-at="2022-08-01T18:08:44 BDT">
+    <test name="Testing TestNG" duration-ms="213736" started-at="2022-08-07T10:59:52 BDT" finished-at="2022-08-07T11:03:26 BDT">
       <class name="testcase.TC002_Login">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.TC002_Login@5c18298f]" name="setup" is-config="true" duration-ms="4063" started-at="2022-08-01T18:07:50 BDT" finished-at="2022-08-01T18:07:54 BDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.TC002_Login@319b92f3]" name="setup" is-config="true" duration-ms="3927" started-at="2022-08-07T10:59:48 BDT" finished-at="2022-08-07T10:59:52 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testcase.TC002_Login@5c18298f]" name="login" duration-ms="26100" started-at="2022-08-01T18:07:54 BDT" finished-at="2022-08-01T18:08:20 BDT">
+        <test-method status="PASS" signature="login()[pri:0, instance:testcase.TC002_Login@319b92f3]" name="login" duration-ms="132747" started-at="2022-08-07T10:59:52 BDT" finished-at="2022-08-07T11:02:05 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testcase.TC002_Login@5c18298f]" name="teardown" is-config="true" duration-ms="779" started-at="2022-08-01T18:08:44 BDT" finished-at="2022-08-01T18:08:45 BDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcase.TC002_Login@319b92f3]" name="teardown" is-config="true" duration-ms="820" started-at="2022-08-07T11:03:26 BDT" finished-at="2022-08-07T11:03:27 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcase.TC002_Login -->
       <class name="testcase.TC003_HomePage">
-        <test-method status="PASS" signature="homepage()[pri:0, instance:testcase.TC003_HomePage@7a36aefa]" name="homepage" duration-ms="23925" started-at="2022-08-01T18:08:20 BDT" finished-at="2022-08-01T18:08:44 BDT">
+        <test-method status="PASS" signature="homepage()[pri:0, instance:testcase.TC003_HomePage@376b4233]" name="homepage" duration-ms="24295" started-at="2022-08-07T11:02:05 BDT" finished-at="2022-08-07T11:02:29 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage -->
       </class> <!-- testcase.TC003_HomePage -->
+      <class name="testcase.TC004_CompleteOrder">
+        <test-method status="PASS" signature="completeaorder()[pri:0, instance:testcase.TC004_CompleteOrder@2fd66ad3]" name="completeaorder" duration-ms="56627" started-at="2022-08-07T11:02:29 BDT" finished-at="2022-08-07T11:03:26 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeaorder -->
+      </class> <!-- testcase.TC004_CompleteOrder -->
     </test> <!-- Testing TestNG -->
   </suite> <!-- Selenium_Redgrocer -->
 </testng-results>

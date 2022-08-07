@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <a href="#" panel-name="suite-Selenium_Redgrocer" class="show-methods passed suite-Selenium_Redgrocer"> (show)</a> <!-- show-methods passed suite-Selenium_Redgrocer -->
                     </span>
                     <div class="method-list-content passed suite-Selenium_Redgrocer">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Redgrocer" title="testcase.TC004_CompleteOrder" hash-for-method="completeaorder">completeaorder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Selenium_Redgrocer" title="testcase.TC003_HomePage" hash-for-method="homepage">homepage</a> <!-- method navigator-link -->
@@ -127,14 +132,14 @@
           <div class="suite-Selenium_Redgrocer-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcase.TC003_HomePage</span>
+              <span class="class-name">testcase.TC004_CompleteOrder</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="homepage">
-                  </a> <!-- homepage -->
-                  <span class="method-name">homepage</span>
+                  <a name="completeaorder">
+                  </a> <!-- completeaorder -->
+                  <span class="method-name">completeaorder</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -154,6 +159,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Selenium_Redgrocer-class-passed -->
+          <div class="suite-Selenium_Redgrocer-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.TC003_HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepage">
+                  </a> <!-- homepage -->
+                  <span class="method-name">homepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Redgrocer-class-passed -->
         </div> <!-- panel Selenium_Redgrocer -->
         <div panel-name="test-xml-Selenium_Redgrocer" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -168,6 +188,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;testcase.TC002_Login&quot;/&gt;
       &lt;class name=&quot;testcase.TC003_HomePage&quot;/&gt;
+      &lt;class name=&quot;testcase.TC004_CompleteOrder&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Testing TestNG --&gt;
 &lt;/suite&gt; &lt;!-- Selenium_Redgrocer --&gt;
@@ -181,7 +202,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Testing TestNG (2 classes)</span>
+                <span class="test-name">Testing TestNG (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,20 +228,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'testcase.TC002_Login')
-data.setCell(0, 3, 26100);
+data.setCell(0, 3, 132747);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'homepage')
-data.setCell(1, 2, 'testcase.TC003_HomePage')
-data.setCell(1, 3, 23925);
+data.setCell(1, 1, 'completeaorder')
+data.setCell(1, 2, 'testcase.TC004_CompleteOrder')
+data.setCell(1, 3, 56627);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'homepage')
+data.setCell(2, 2, 'testcase.TC003_HomePage')
+data.setCell(2, 3, 24295);
 window.suiteTableData['Selenium_Redgrocer']= { tableData: data, tableDiv: 'times-div-Selenium_Redgrocer'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Selenium_Redgrocer">
               </div> <!-- times-div-Selenium_Redgrocer -->
             </div> <!-- times-div -->
@@ -235,9 +260,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Selenium_Redgrocer" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcase.TC004_CompleteOrder</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">testcase.TC003_HomePage</span>
               <div class="ignored-methods-div">
@@ -262,21 +296,28 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">4113 ms</span>
+                <span class="method-start">3980 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcase.TC003_HomePage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">homepage</span>
-                <span class="method-start">30228 ms</span>
+                <span class="method-start">136742 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.TC004_CompleteOrder</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">completeaorder</span>
+                <span class="method-start">161037 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcase.TC002_Login</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">54184 ms</span>
+                <span class="method-start">217710 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

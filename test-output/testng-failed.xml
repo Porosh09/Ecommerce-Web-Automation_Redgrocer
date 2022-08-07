@@ -3,6 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium_Redgrocer]">
   <test thread-count="5" name="Testing TestNG(failed)">
     <classes>
+      <class name="testcase.TC004_CompleteOrder">
+        <methods>
+          <include name="setup"/>
+          <include name="completeaorder"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcase.TC004_CompleteOrder -->
+      <class name="testcase.TC002_Login">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcase.TC002_Login -->
       <class name="testcase.TC003_HomePage">
         <methods>
           <include name="setup"/>
